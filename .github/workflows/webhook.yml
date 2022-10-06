@@ -11,7 +11,6 @@ on:
   pull_request_review:
   pull_request_review_comment:
   push:
-  workflow_run:
   
 
   # Allows you to run this workflow manually from the Actions tab
