@@ -4,6 +4,14 @@ name: webhook
 
 # Controls when the workflow will run
 on:
+  issues:
+  issue_comment:
+  label:
+  pull_request:
+  pull_request_review:
+  pull_request_review_comment:
+  push:
+  
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
